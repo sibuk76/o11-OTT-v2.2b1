@@ -1,6 +1,6 @@
 apt update
 
-apt install rar -y
+apt install unrar -y
 
 wget https://github.com/sibuk76/o11-OTT-v2.2b1/raw/main/o11.rar
 
