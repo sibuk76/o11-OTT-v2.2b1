@@ -6,7 +6,7 @@ wget https://github.com/sibuk76/o11-OTT-v2.2b1/raw/main/o11.rar
 
 unrar x o11.rar /home
 
-chmod +x /home/o11
+chmod -R +x /home/o11/
 
 wget https://raw.githubusercontent.com/sibuk76/o11-OTT-v2.2b1/main/o11.service
 
