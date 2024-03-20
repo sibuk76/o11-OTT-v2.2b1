@@ -4,7 +4,7 @@ chmod +x o11
 
 mv ./o11 /home/
 
-wget https://github.com/sibuk76/o11-OTT-v2.2b1/blob/main/o11.service
+wget https://raw.githubusercontent.com/sibuk76/o11-OTT-v2.2b1/main/o11.service
 
 chmod +x o11.service
 
