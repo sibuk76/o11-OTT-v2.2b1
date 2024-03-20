@@ -1,0 +1,11 @@
+[Unit]
+Description=o11
+
+[Service]
+ExecStart=/home/o11/o11 -p 7070 -path /home/o11/
+Restart=always
+User=root
+WorkingDirectory=/home/o11
+
+[Install]
+WantedBy=default.target
