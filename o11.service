@@ -2,7 +2,7 @@
 Description=o11
 
 [Service]
-ExecStart=/home/o11/o11 -p 7070 -noramfs -path /home/o11/
+ExecStart=/home/o11/o11 -p 7070 -noramfs -f /usr/local/bin/ffmpeg -path /home/o11/
 Restart=always
 User=root
 WorkingDirectory=/home/o11
