@@ -3,7 +3,7 @@ apt update
 apt install unrar -y
 wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
 tar -xf ffmpeg-release-amd64-static.tar.xz
-cd ffmpeg-7.0-amd64-static/
+cd ffmpeg-7.0.1-amd64-static/
 mv ffmpeg /usr/local/bin/
 mv ffprobe /usr/local/bin/
 cd /root
